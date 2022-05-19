@@ -1,0 +1,489 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+
+:root{
+	--theme : #003580;
+	--theme-width: 80%;
+}
+
+header{
+	background: var(--theme);
+	color: #fff;
+}
+
+.top-navbar{
+	width: var(--theme-width);
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.links a{
+	text-decoration: none;
+	color: #fff;
+    font-weight: bold;
+	padding: 5px;
+}
+
+.links button:nth-child(2){
+	border-radius: 0;
+    border-color: white;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid #fff;
+	color: white;
+    padding: 10px;
+}
+
+
+.links button:nth-last-child(-n+2){
+	border-radius: 0;
+    border-color: white;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+}
+
+
+/* navbar  */
+.navbar{
+	width: var(--theme-width);
+}
+.navbar ul{
+	list-style-type: none;
+	display: flex;
+	margin-left: 10%;
+
+}
+.active{
+	padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    background-color: #ffffff24;
+}
+.navbar ul li{
+	padding:  10px 20px;
+    margin: 0 5px;
+	
+}
+.navbar ul li:hover{
+	border-radius: 25px;
+    background-color: #ffffff24;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: white;
+}
+
+/* intro */
+
+.intro{
+
+	width: var(--theme-width);
+	margin: 50px auto;
+}
+
+.intro h1{
+	font-size: 3vw;
+}
+
+.intro p{
+	font-size: 20pt;
+}
+
+.intro button{
+	border-radius: 0;
+    background-color: #09e0ff;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+	
+}
+
+.search-form{
+	width: var(--theme-width);
+	margin: 50px auto;
+	position: relative;
+    top: 1.5rem;
+}
+.search-form form{
+	background: #f39d00;
+    display: grid;
+    grid-template-columns: 40% auto auto 30% 10%;
+	border-radius: 3px;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.search-form input{
+	padding: 10px;
+	margin: 2px;
+	border:none;
+	height: 25px;
+
+}
+
+.search-form .search-btn{
+	border-radius: 0;
+    background-color: var(--theme);
+    font-weight: 700;
+    border: none;
+	margin: 5px;
+    padding: 10px 20px;
+	color:white;
+}
+
+.H1{
+	margin-left: auto;
+	width:var(--theme-width);
+	margin-right: auto;
+	color: rgba(0, 0, 0, 0.63);
+}
+
+.H2{
+	display: flex;
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	color: rgba(0, 0, 0, 0.63);
+}
+
+.Property h1{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+
+}
+
+.Images{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	gap: 20px;
+}
+.Images img{
+	max-width: 25%;
+	height: auto;
+}
+
+.Imgdesc{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	font-size: 20px;
+	column-gap: 14%;
+	text-align: left;
+}
+
+.India{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.India p{
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.63);
+}
+
+.indiaimg{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	overflow: auto;
+}
+
+.indiaimg img{
+	height: 210px;
+	width: 210px;
+}
+
+.Text{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	font-size: 20px;
+	justify-content: flex-start;
+    column-gap: 14%;
+    align-content: center;
+}
+
+.Whole{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+.Backg{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(https://t-cf.bstatic.com/xdata/images/city/540x270/971345.webp?k=9bf85dfa10a224e2855ca2f8ca3fcd96916a962d87cdfcc48d6d57c09bef3c65&o=);
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.Backg p{
+	font-weight: 900;
+	color: rgba(16, 9, 9, 0.868);
+	font-size: 20px;
+	
+}
+
+.Backg2{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(https://t-cf.bstatic.com/xdata/images/city/540x270/684613.webp?k=1fd9572ab66082224bafe4aa84da1a75704cff46c6cd0d5fc94da8994650c5fd&o=);
+	background-repeat: no-repeat;
+	height: 300px;
+	font-weight: 900;
+	color: rgba(16, 9, 9, 0.868);
+	font-size: 20px;
+}
+
+.Whole2{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+.Backg3{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(https://t-cf.bstatic.com/xdata/images/city/540x270/684764.webp?k=6c3c9e920a39ca4f9eddcdfaa916999ea5d2765844610dd59349f4271f7596b3&o=);
+	background-repeat: no-repeat;
+	height: 300px;
+	font-weight: 900;
+	color: rgba(16, 9, 9, 0.868);
+	font-size: 20px;
+}
+
+.Backg4{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(https://t-cf.bstatic.com/xdata/images/city/540x270/619923.webp?k=4fb13225390240a51ee5aa1d76318d03dc0de8a046ddc06e4598f17b287bdcc9&o=);
+	background-repeat: no-repeat;
+	height: 300px;
+	font-weight: 900;
+	color: rgba(16, 9, 9, 0.868);
+	font-size: 20px;
+}
+
+.Visitors{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+.Subscribe{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	gap: 3%;
+	overflow: auto;
+}
+
+.Subscribe img{
+	height: 210px;
+	width: 210px;
+}
+
+.Subscribe p{
+	font-size: 20px;
+}
+
+.Text3{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Travellers{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Images3{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	gap: 3%;
+	overflow: auto;
+}
+
+.Images3 img{
+	height: 210px;
+	width: 210px;
+}
+
+
+.Emirates{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Destinations{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Regions{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Regions ul{
+	list-style-type: none;
+	display: flex;
+}
+
+.Activate{
+	padding: 10px 20px;
+	border: #0071c2;
+	border-radius: 25px;
+	background-color: rgba(0, 113, 194, 0.236);
+	border: 1px solid blue;
+}
+
+.Regions ul li{
+	padding: 10px 20px;
+}
+
+.Regions ul li:hover{
+	border-radius: 25px;
+	background-color: #0071c2;
+}
+
+.Regions a{
+	text-decoration: none;
+	color:black;
+}
+
+.Countries{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Mykonos{
+	width:var(--theme-width);
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.SearchBox{
+	background: var(--theme);
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding-top: 80px;
+}
+
+.Save{
+	background: var(--theme);
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+.form{
+	background: var(--theme);
+	margin-left: auto;
+	padding: 1.5rem;
+	margin-right: auto;
+	text-align: center;
+}
+
+.form form{
+	display: grid;
+	grid-template-columns: 40% 10%;
+	justify-content: center;
+	height: 100px;
+}
+
+.form button{
+	background-color: #0071c2;
+	color: white;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+.form input{
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+.form2{
+	display:flex;
+	padding: 5px;
+}
+
+.form2 label{
+	color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.Images, .indiaimg , .Subscribe {
+		overflow: auto;
+	}
+	.Images img, .indiaimg  img, .Subscribe img{
+		max-width: 100%;
+		height: auto;
+		width: 100%;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+
+
+
